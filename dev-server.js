@@ -4,7 +4,7 @@ const { argv } = require('node:process');
 const chalk = require('chalk');
 
 const app = express();
-let port = 4000; // Starting port
+let port = 3000; // Starting port
 const maxAttempts = 10; // Maximum number of ports to try
 const env = argv[2] ?? "dev";
 
