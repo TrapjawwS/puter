@@ -19,7 +19,7 @@
     "webpack-cli": "^5.1.1"
   },
   "scripts": {
-    "start": "node --exec node dev-server.js",
+    "start": "node --exec "node dev-server.js" ",
     "build": "node ./build.js"
   },
   "nodemonConfig": {
