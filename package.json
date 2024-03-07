@@ -20,7 +20,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm i & nodemon --exec \"node dev-server.js\" ",
+    "start": "nodemon --exec \"node dev-server.js\" ",
     "build": "node ./build.js"
   },
   "nodemonConfig": {
